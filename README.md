@@ -1,2 +1,2 @@
 # Montreal-Hotel
-Practiced HTML, CSS, Javascript, jQuery, jQuery UI.
+Practiced HTML, CSS, Javascript and jQuery/jQuery UI.
