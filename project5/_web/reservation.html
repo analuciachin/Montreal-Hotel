@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>Montreal Travel</title>
+		<meta charset="UTF-8">
+		<link href="../_css/reset.css" rel="stylesheet" type="text/css">
+		<link href="../_css/reservation_layout.css" rel="stylesheet" type="text/css">
+		<link href="../_css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../_js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="../_js/jquery-ui.min.js"></script>	
+		<script type="text/javascript" src="../_js/copyright_year.js"></script>
+		<script type="text/javascript" src="../_js/travel_dates.js"></script>
+		
+	</head>
+
+
+	<body>
+		<div id="gridContainer">
+			<header id="background_header"><h1>Montreal Hotel</h1></header>
+
+			<nav>
+				<ul>
+  					<li><a href="../index.html">Home</a></li>
+  					<img src="../_images/underline.png" id="underline">
+					
+					<li><a href="suites.html">Suites</a></li>
+					<img src="../_images/underline.png" id="underline">
+					
+					<li><a href="">Dining</a></li>
+					<img src="../_images/underline.png" id="underline">
+					
+					<li><a href="sightseeing.html">Sightseeing</a></li>
+					<img src="../_images/underline.png" id="underline">
+					
+					<li><a>Reservation</a></li>
+					<img src="../_images/underline.png" id="underline">
+					
+					<li><a href="">Contact us</a></li>
+					<img src="../_images/underline.png" id="underline">
+				</ul>
+			</nav>
+			<main>
+				<h1>Make your reservation</h1>
+				<h3>Check the availability</h3>
+				<form id="travel_info">
+					<label>Your Stay Dates</label>
+					<p>Arrival Date: <input type="text" id="txtStartDate"></p>
+					<p>Departure Date: <input type="text" id="txtEndDate"></p>	
+					<label>Guests</label>
+					<p>Number of adults</p>
+					<select id="selectAdults">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+					<p>Number of children</p>
+					<select id="selectChildren">
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+					<label>Your Room</label>
+					<select id="selectRoom">
+						<option selected>-- Select a room --</option>
+						<option>Van Gogh</option>
+						<option>Picasso</option>
+						<option>Monet</option>
+						<option>Michelangelo</option>
+						<option>Da Vinci</option>
+					</select>
+					<input type="submit" value="Check availability">
+				</form>	
+				<div id="reservation_info"></div>
+			</main>
+			
+
+			<footer>
+				Copyright &copy; <span id="copyrightYear">2016</span>
+				<a href="#">Montreal Hotel</a>
+				-&nbsp;
+				<span class="signature">Designed by Ana Lucia</span>
+			</footer>
+		</div>
+	<script type="text/javascript" src="../_js/reservation_info.js"></script>	
+	</body>
+</html>
